@@ -1,0 +1,34 @@
+---
+:source:
+  :path: test
+  :file: test_DoubleBubbleSort.c
+:successes:
+- :test: test_Double_Integer_Compare_given_4_point_1_and_2_point_1_should_return_1
+  :line: 12
+  :message: ''
+- :test: test_Double_Integer_Compare_given_2_point_3_and_2_point_4_should_return_negative_1
+  :line: 22
+  :message: ''
+- :test: test_Double_Integer_Compare_given_1_point_3_and_1_point_3_should_return_0
+  :line: 31
+  :message: ''
+- :test: test_Double_Integer_Swap_given_3_point_5_and_1_point_6_and_should_return_1_point_6_and_3_point_5
+  :line: 40
+  :message: ''
+- :test: test_Double_Integer_SingleBubbleSort_given_4_point_2_and_4_point_1_and_4_point_5_should_return_4_point_1_4_point_2_and_4_point_5
+  :line: 52
+  :message: ''
+- :test: test_IntegerSingleBubbleSort_given_6_1_and_2_8_and_2_5_and_4_5_should_return_6_1_and_2_5_and_2_8_and_4_5
+  :line: 63
+  :message: ''
+- :test: test_Double_Integer_BubbleSort_given_7_8_and_8_4_and_4_2_and_3_6_and_should_return_3_6_and_4_2_and_7_8_and_8_4
+  :line: 75
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []

@@ -1,0 +1,43 @@
+---
+:source:
+  :path: test
+  :file: test_IntegerBubbleSort.c
+:successes:
+- :test: test_IntegerCompare_given_4_and_7_should_return_minus_1
+  :line: 12
+  :message: ''
+- :test: test_IntegerCompare_given_6_and_2_should_return_1
+  :line: 21
+  :message: ''
+- :test: test_IntegerCompare_given_1_and_1_should_return_0
+  :line: 30
+  :message: ''
+- :test: test_IntegerSwap_given_3_and_1_should_return_1_and_3
+  :line: 39
+  :message: ''
+- :test: test_IntegerSingleBubbleSort_given_4_1_and_3_should_return_1_4_and_3
+  :line: 51
+  :message: ''
+- :test: test_IntegerSingleBubbleSort_given_5_2_1_and_3_should_return_1_5_2_and_3
+  :line: 62
+  :message: ''
+- :test: test_IntegerSingleBubbleSort_given_6_1_3_and_4_should_return_6_1_3_and_4
+  :line: 74
+  :message: ''
+- :test: test_IntegerSingleBubbleSort_given_7_8_9_3_and_1_should_return_1_7_8_9_and_3
+  :line: 86
+  :message: ''
+- :test: test_IntegerBubbleSort_given_4_5_3_and_should_return_3_4_5
+  :line: 99
+  :message: ''
+- :test: test_IntegerBubbleSort_given_6_3_1_5_and_should_return_1_3_5_6
+  :line: 111
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 10
+  :passed: 10
+  :failed: 0
+  :ignored: 0
+:stdout: []
